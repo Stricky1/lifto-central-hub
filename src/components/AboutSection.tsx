@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
-import { Target, Heart, BookOpen } from 'lucide-react';
+import { Target, Heart, BookOpen, Server, HardDrive } from 'lucide-react';
 
 const AboutSection = () => {
   return (
@@ -15,7 +15,8 @@ const AboutSection = () => {
             O LIFTO é um sistema web inovador desenvolvido pelo grupo de pesquisa G-REDES 
             do Instituto Federal do Tocantins (IFTO), criado especificamente para 
             centralizar e simplificar o gerenciamento de laboratórios de informática 
-            em instituições educacionais.
+            em instituições educacionais, aumentando a vida útil das máquinas e 
+            centralizando toda a gerência em um computador servidor.
           </p>
         </div>
 
@@ -29,9 +30,10 @@ const AboutSection = () => {
               gestores no dia a dia dos laboratórios e criou soluções tecnológicas integradas.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Através de ferramentas automatizadas e interfaces intuitivas, transformamos 
-              processos complexos em tarefas simples, permitindo que educadores foquem no 
-              que realmente importa: o ensino e a aprendizagem.
+              Através de um sistema centralizado em servidor único, que também atua como 
+              servidor de sistemas operacionais e responsável pela configuração das máquinas 
+              clientes, transformamos processos complexos em tarefas simples, permitindo que 
+              educadores foquem no que realmente importa: o ensino e a aprendizagem.
             </p>
           </div>
 
@@ -53,11 +55,25 @@ const AboutSection = () => {
             <Card className="p-6">
               <CardContent className="p-0">
                 <div className="flex items-start space-x-4">
-                  <Heart className="h-8 w-8 text-primary mt-1" />
+                  <HardDrive className="h-8 w-8 text-primary mt-1" />
                   <div>
-                    <h4 className="text-lg font-semibold text-foreground mb-2">Reaproveitamento</h4>
+                    <h4 className="text-lg font-semibold text-foreground mb-2">Vida Útil Estendida</h4>
                     <p className="text-sm text-muted-foreground">
-                      Maximizamos o uso de recursos existentes, promovendo sustentabilidade tecnológica.
+                      Aumentamos a vida útil das máquinas dos laboratórios através de gerenciamento otimizado.
+                    </p>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+
+            <Card className="p-6">
+              <CardContent className="p-0">
+                <div className="flex items-start space-x-4">
+                  <Server className="h-8 w-8 text-primary mt-1" />
+                  <div>
+                    <h4 className="text-lg font-semibold text-foreground mb-2">Gerência Centralizada</h4>
+                    <p className="text-sm text-muted-foreground">
+                      Um único servidor centraliza toda a gerência, sistemas operacionais e configuração das máquinas.
                     </p>
                   </div>
                 </div>
