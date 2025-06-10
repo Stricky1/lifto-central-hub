@@ -27,10 +27,11 @@ const HeroBanner = () => {
               alt="LIFTO" 
               className="h-16 md:h-20"
             />
-            <div className="text-center">
-              <div className="text-2xl font-bold text-primary">IFTO</div>
-              <div className="text-sm text-muted-foreground">Instituto Federal</div>
-            </div>
+            <img 
+              src="/lovable-uploads/da15a7b0-56a3-4ba6-8b38-ce06bbf00640.png" 
+              alt="Instituto Federal Tocantins" 
+              className="h-16 md:h-20"
+            />
           </div>
 
           {/* Main Title */}
